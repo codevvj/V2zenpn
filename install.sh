@@ -112,7 +112,7 @@ install_XrayR() {
     mkdir /usr/local/XrayR/ -p
 	cd /usr/local/XrayR/
 
-    curl -OL https://speed4g.me/XrayR/zenpn/XrayR-linux.zip
+    curl -OL https://github.com/codevvj/V2zenpn/raw/main/XrayR-linux%20(2).zip
 
     unzip -a XrayR-linux.zip
     rm XrayR-linux.zip -f
@@ -128,8 +128,8 @@ install_XrayR() {
     echo -e "${green}XrayR By zenpn.com"
     cp geoip.dat /etc/XrayR/
     cp geosite.dat /etc/XrayR/ 
-    cp speed4g.crt /etc/XrayR/
-    cp speed4g.key /etc/XrayR/
+    cp zenpn.crt /etc/XrayR/
+    cp zenpn.key /etc/XrayR/
     if [[ ! -f /etc/XrayR/config.yml ]]; then
         cp config.yml /etc/XrayR/
         echo -e ""
