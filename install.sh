@@ -112,7 +112,7 @@ install_XrayR() {
     mkdir /usr/local/XrayR/ -p
 	cd /usr/local/XrayR/
 
-    curl -OL https://zenpn.com/assets/XrayR-linux.zip
+    curl -OL https://speed4g.me/XrayR/zenpn/XrayR-linux.zip
 
     unzip -a XrayR-linux.zip
     rm XrayR-linux.zip -f
